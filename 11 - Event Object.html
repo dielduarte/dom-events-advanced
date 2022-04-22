@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    div {
+      padding: 30px;
+      background: blue;
+      width: min-content;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="div">
+    <button class="button">
+      clique aqui!
+    </button>
+  </div>
+
+  <script>
+    const button = document.querySelector('.button')
+    const div = document.querySelector('.div')
+
+    // - event object é mutavel
+    // button.addEventListener('click', (event) => {
+    //   console.log(event.currentTarget)
+
+    //   setTimeout(() => {
+    //     console.log(event.currentTarget)
+    //   }, 300)
+    // })
+
+    // button.addEventListener('click', (event) => {
+    //   console.log(event)
+    // })
+
+    // - event type
+    // button.addEventListener('click', (event) => {
+    //   console.log(event.type);
+    // })
+
+    // - event phase
+    // button.addEventListener('click', (event) => {
+    //   console.log(event.eventPhase);
+    //   console.log('<<<<<< event phases enum >>>>')
+    //   console.log(Event.NONE);
+    //   console.log(Event.CAPTURING_PHASE);
+    //   console.log(Event.AT_TARGET);
+    //   console.log(Event.BUBBLING_PHASE);
+    // })
+
+    // - event timeStamp
+    // button.addEventListener('click', (event) => {
+    //   console.log(event.timeStamp);
+
+    //   setTimeout(() => console.log(event.timeStamp), 300)
+    // })
+
+    // event target vs current target
+    // div.addEventListener('click', (event) => {
+    //   console.log(event.target);
+    //   console.log(event.currentTarget);
+    // });
+
+    // METODOS
+
+    // event composed path
+    // button.addEventListener('click', (event) => {
+    //   console.log(event.composedPath())
+    // })
+  </script>
+</body>
+
+</html>

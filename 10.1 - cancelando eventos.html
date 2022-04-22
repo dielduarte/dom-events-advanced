@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <a class="link" href="https://google.com">
+      clique aqui!
+    </a>
+  </div>
+
+  <script>
+    const link = document.querySelector('.link')
+
+    // // cancelando evento com DOM level 2 handlers
+    // link.addEventListener('click', (event) => {
+    //   event.preventDefault()
+    // })
+
+    // cancelando evento com DOM level 0 handlers
+    // link.onclick = () => false;
+
+    // como saber se um evento pode ser cancelado
+    // link.addEventListener('click', (event) => {
+    //   if (event.cancelable) {
+    //     console.log(event.cancelable)
+    //     event.preventDefault()
+    //   }
+    // })
+
+    // como saber se um evento foi cancelado
+    // link.addEventListener('click', (event) => {
+    //   console.log(event.defaultPrevented)
+    //   event.preventDefault()
+    //   console.log(event.defaultPrevented)
+    // })
+
+    // usando a doc para saber se um evento é cancelable por default ou não
+    // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event#specifications
+
+  </script>
+</body>
+
+</html>

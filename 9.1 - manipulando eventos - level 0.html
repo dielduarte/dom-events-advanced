@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <button class="button" onclick="alert('hello world!')">
+      clique aqui!
+    </button>
+  </div>
+
+  <script>
+    const button = document.querySelector('.button')
+
+    // HTML attributes but in JS
+    // button.onclick = () => eval("alert('hello world!')")
+
+    // object property
+    // button.onclick = () => alert('hello world!')
+
+    // remover eventos
+
+    //object property
+    // button.onclick = null;
+
+    //HTML attributes
+    // button.removeAttribute('onclick');
+  </script>
+</body>
+
+</html>

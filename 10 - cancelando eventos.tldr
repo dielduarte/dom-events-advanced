@@ -1,0 +1,76 @@
+{
+  "document": {
+    "id": "doc",
+    "name": "New Document",
+    "version": 15.3,
+    "pages": {
+      "page": {
+        "id": "page",
+        "name": "Page 1",
+        "childIndex": 1,
+        "shapes": {
+          "ef8fc84a-dad9-45df-2809-cac20817118b": {
+            "id": "ef8fc84a-dad9-45df-2809-cac20817118b",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 1,
+            "point": [
+              223.32,
+              190.12
+            ],
+            "rotation": 0,
+            "text": "Cancelando eventos",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 3.2097368421052623,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "8a2d67c9-cf4e-4b39-3eab-6074bba7892f": {
+            "id": "8a2d67c9-cf4e-4b39-3eab-6074bba7892f",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 2,
+            "point": [
+              378.31,
+              332.06
+            ],
+            "rotation": 0,
+            "text": "preventDefault",
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.4564216778025243,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          }
+        },
+        "bindings": {}
+      }
+    },
+    "pageStates": {
+      "page": {
+        "id": "page",
+        "selectedIds": [],
+        "camera": {
+          "point": [
+            0,
+            0
+          ],
+          "zoom": 1
+        }
+      }
+    },
+    "assets": {}
+  },
+  "assets": {}
+}

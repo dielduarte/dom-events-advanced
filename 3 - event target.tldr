@@ -1,0 +1,501 @@
+{
+  "document": {
+    "id": "doc",
+    "name": "New Document",
+    "version": 15.3,
+    "pages": {
+      "page": {
+        "id": "page",
+        "name": "Page 1",
+        "childIndex": 1,
+        "shapes": {
+          "72f0be23-861d-448b-08b3-45910b8c63ac": {
+            "id": "72f0be23-861d-448b-08b3-45910b8c63ac",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 1,
+            "point": [
+              108.32,
+              55.02
+            ],
+            "size": [
+              898.65,
+              138.74
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "blue",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Event target Interface",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "3cbcf097-020c-41e3-0714-dc05044a4886": {
+            "id": "3cbcf097-020c-41e3-0714-dc05044a4886",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "page",
+            "childIndex": 2,
+            "point": [
+              142.31,
+              276.43
+            ],
+            "radius": [
+              100.16247822223795,
+              83.94821862884442
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "orange",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Element",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "0d09f5f7-9179-47da-2264-d789761fb571": {
+            "id": "0d09f5f7-9179-47da-2264-d789761fb571",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "page",
+            "childIndex": 3,
+            "point": [
+              462.03,
+              246.6
+            ],
+            "radius": [
+              100.16247822223795,
+              83.94821862884442
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Window/Document",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "afba61cb-5689-48e2-1a75-0264649c46c1": {
+            "id": "afba61cb-5689-48e2-1a75-0264649c46c1",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "page",
+            "childIndex": 4,
+            "point": [
+              797.48,
+              337.14
+            ],
+            "radius": [
+              100.16247822223795,
+              83.94821862884442
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "green",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "XMLHttpRequest",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "c374a5b1-f319-4d17-26b8-db8df56b8cd3": {
+            "id": "c374a5b1-f319-4d17-26b8-db8df56b8cd3",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "page",
+            "childIndex": 5,
+            "point": [
+              315.7,
+              443.46
+            ],
+            "radius": [
+              97.89301129655883,
+              86.17565838923332
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "green",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "AudioNode",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "79723a16-5f0f-44c9-2b88-2a71077eb459": {
+            "id": "79723a16-5f0f-44c9-2b88-2a71077eb459",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 6,
+            "point": [
+              409.8,
+              209.76
+            ],
+            "rotation": 0,
+            "bend": 0.000041740789955433895,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  2.77,
+                  233.7
+                ],
+                "canBind": true,
+                "bindingId": "c73fc1cd-77ab-47fd-17eb-95394d085f9f"
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true,
+                "bindingId": "03413d73-9d34-4153-1dde-21c382c8a566"
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  1.39,
+                  116.85
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "green",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "5e33b04f-6578-40c6-09e1-676910031357": {
+            "id": "5e33b04f-6578-40c6-09e1-676910031357",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 7,
+            "point": [
+              559.18,
+              193.76
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  1.16,
+                  52.85
+                ],
+                "canBind": true,
+                "bindingId": "58360d07-c696-4c9d-08f2-9288511fc127"
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true,
+                "bindingId": "7ef4bc7f-bc22-49ec-0283-94a20fec426d"
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  0.58,
+                  26.43
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "4e12fbf8-8aac-4c3c-1a45-14605041eb2b": {
+            "id": "4e12fbf8-8aac-4c3c-1a45-14605041eb2b",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 8,
+            "point": [
+              894.19,
+              209.76
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  2.08,
+                  127.39
+                ],
+                "canBind": true,
+                "bindingId": "68ccb8c7-66ca-4b31-1e5a-b0dec2f229c2"
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true,
+                "bindingId": "58031242-8d38-44c7-2e5d-35d617d22cd9"
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  1.04,
+                  63.7
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "green",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "ccb5ec5c-93a5-43cb-0559-211df31868b0": {
+            "id": "ccb5ec5c-93a5-43cb-0559-211df31868b0",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 9,
+            "point": [
+              214.03,
+              209.76
+            ],
+            "rotation": 0,
+            "bend": 0.00013498962160206162,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0.59,
+                  69.98
+                ],
+                "canBind": true,
+                "bindingId": "649c384c-aaa1-4b0a-0dbf-8d687bb1a9a8"
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true,
+                "bindingId": "990fe0dc-9a30-4e0f-057e-e5db673ddda7"
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  0.3,
+                  34.99
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "orange",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          }
+        },
+        "bindings": {
+          "c73fc1cd-77ab-47fd-17eb-95394d085f9f": {
+            "id": "c73fc1cd-77ab-47fd-17eb-95394d085f9f",
+            "type": "arrow",
+            "fromId": "79723a16-5f0f-44c9-2b88-2a71077eb459",
+            "toId": "c374a5b1-f319-4d17-26b8-db8df56b8cd3",
+            "handleId": "start",
+            "point": [
+              0.5,
+              0.5
+            ],
+            "distance": 8
+          },
+          "03413d73-9d34-4153-1dde-21c382c8a566": {
+            "id": "03413d73-9d34-4153-1dde-21c382c8a566",
+            "type": "arrow",
+            "fromId": "79723a16-5f0f-44c9-2b88-2a71077eb459",
+            "toId": "72f0be23-861d-448b-08b3-45910b8c63ac",
+            "handleId": "end",
+            "point": [
+              0.34,
+              0.48
+            ],
+            "distance": 16
+          },
+          "58360d07-c696-4c9d-08f2-9288511fc127": {
+            "id": "58360d07-c696-4c9d-08f2-9288511fc127",
+            "type": "arrow",
+            "fromId": "5e33b04f-6578-40c6-09e1-676910031357",
+            "toId": "0d09f5f7-9179-47da-2264-d789761fb571",
+            "handleId": "start",
+            "point": [
+              0.5,
+              0.5
+            ],
+            "distance": 8
+          },
+          "7ef4bc7f-bc22-49ec-0283-94a20fec426d": {
+            "id": "7ef4bc7f-bc22-49ec-0283-94a20fec426d",
+            "type": "arrow",
+            "fromId": "5e33b04f-6578-40c6-09e1-676910031357",
+            "toId": "72f0be23-861d-448b-08b3-45910b8c63ac",
+            "handleId": "end",
+            "point": [
+              0.5,
+              0.5
+            ],
+            "distance": 16
+          },
+          "68ccb8c7-66ca-4b31-1e5a-b0dec2f229c2": {
+            "id": "68ccb8c7-66ca-4b31-1e5a-b0dec2f229c2",
+            "type": "arrow",
+            "fromId": "4e12fbf8-8aac-4c3c-1a45-14605041eb2b",
+            "toId": "afba61cb-5689-48e2-1a75-0264649c46c1",
+            "handleId": "start",
+            "point": [
+              0.5,
+              0.5
+            ],
+            "distance": 8
+          },
+          "58031242-8d38-44c7-2e5d-35d617d22cd9": {
+            "id": "58031242-8d38-44c7-2e5d-35d617d22cd9",
+            "type": "arrow",
+            "fromId": "4e12fbf8-8aac-4c3c-1a45-14605041eb2b",
+            "toId": "72f0be23-861d-448b-08b3-45910b8c63ac",
+            "handleId": "end",
+            "point": [
+              0.86,
+              0.46
+            ],
+            "distance": 16
+          },
+          "649c384c-aaa1-4b0a-0dbf-8d687bb1a9a8": {
+            "id": "649c384c-aaa1-4b0a-0dbf-8d687bb1a9a8",
+            "type": "arrow",
+            "fromId": "ccb5ec5c-93a5-43cb-0559-211df31868b0",
+            "toId": "3cbcf097-020c-41e3-0714-dc05044a4886",
+            "handleId": "start",
+            "point": [
+              0.38,
+              0.08
+            ],
+            "distance": 8
+          },
+          "990fe0dc-9a30-4e0f-057e-e5db673ddda7": {
+            "id": "990fe0dc-9a30-4e0f-057e-e5db673ddda7",
+            "type": "arrow",
+            "fromId": "ccb5ec5c-93a5-43cb-0559-211df31868b0",
+            "toId": "72f0be23-861d-448b-08b3-45910b8c63ac",
+            "handleId": "end",
+            "point": [
+              0.13,
+              0.49
+            ],
+            "distance": 16
+          }
+        }
+      }
+    },
+    "pageStates": {
+      "page": {
+        "id": "page",
+        "selectedIds": [],
+        "camera": {
+          "point": [
+            0,
+            0
+          ],
+          "zoom": 1
+        }
+      }
+    },
+    "assets": {}
+  },
+  "assets": {}
+}

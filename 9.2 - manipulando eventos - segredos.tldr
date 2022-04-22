@@ -1,0 +1,164 @@
+{
+  "document": {
+    "id": "doc",
+    "name": "New Document",
+    "version": 15.3,
+    "pages": {
+      "page": {
+        "id": "page",
+        "name": "Page 1",
+        "childIndex": 1,
+        "shapes": {
+          "eb0c1f0b-816d-460d-20cc-9d3852124975": {
+            "id": "eb0c1f0b-816d-460d-20cc-9d3852124975",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 1,
+            "point": [
+              179.77,
+              263.4
+            ],
+            "rotation": 0,
+            "text": "- Atributos e object propreties são excludentes",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.4564216778025243,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "ad8e53c6-af1c-44b7-3eac-11ff2094e251": {
+            "id": "ad8e53c6-af1c-44b7-3eac-11ff2094e251",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 2,
+            "point": [
+              119.4,
+              549.05
+            ],
+            "rotation": 0,
+            "text": "- Eventos level 0 não funciona com mais de um listener para o \nmesmo tipo de evento",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.4564216778025243,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "30d359a6-fecf-48a4-27de-efaa01f1035f": {
+            "id": "30d359a6-fecf-48a4-27de-efaa01f1035f",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 2,
+            "point": [
+              314.84,
+              77.08
+            ],
+            "rotation": 0,
+            "text": "Important! ",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 3.5489335288937505,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "96eb723f-a051-494f-16d2-25820270f135": {
+            "id": "96eb723f-a051-494f-16d2-25820270f135",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 3,
+            "point": [
+              737.2,
+              99.45
+            ],
+            "rotation": 0,
+            "text": "🔑",
+            "style": {
+              "color": "orange",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 2.4367486305535127,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "74d5a636-1a28-4980-21eb-9d7d8d182c83": {
+            "id": "74d5a636-1a28-4980-21eb-9d7d8d182c83",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 2,
+            "point": [
+              179.79,
+              430.44
+            ],
+            "rotation": 0,
+            "text": "- Nem todos os tipos de eventos existentes podem \nser utilizados como atributo ou propriedade",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.4564216778025243,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "fa08891f-1d11-43fe-2ab5-d94b6fb6f25a": {
+            "id": "fa08891f-1d11-43fe-2ab5-d94b6fb6f25a",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 2,
+            "point": [
+              99.05,
+              348.34
+            ],
+            "rotation": 0,
+            "text": "- Não conseguimos alterar a configuração padrão de um evento",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.4564216778025243,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          }
+        },
+        "bindings": {}
+      }
+    },
+    "pageStates": {
+      "page": {
+        "id": "page",
+        "selectedIds": [],
+        "camera": {
+          "point": [
+            0,
+            0
+          ],
+          "zoom": 1
+        }
+      }
+    },
+    "assets": {}
+  },
+  "assets": {}
+}

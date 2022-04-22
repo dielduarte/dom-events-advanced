@@ -1,0 +1,142 @@
+{
+  "document": {
+    "id": "doc",
+    "name": "New Document",
+    "version": 15.3,
+    "pages": {
+      "page": {
+        "id": "page",
+        "name": "Page 1",
+        "childIndex": 1,
+        "shapes": {
+          "653777fe-915a-45b4-3ee1-31df5a5a75e5": {
+            "id": "653777fe-915a-45b4-3ee1-31df5a5a75e5",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 1,
+            "point": [
+              132.85,
+              119.11
+            ],
+            "rotation": 0,
+            "text": "Manipulando eventos",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 3.2097368421052623,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "3c495776-dee9-484b-071c-1d59be06e67d": {
+            "id": "3c495776-dee9-484b-071c-1d59be06e67d",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 2,
+            "point": [
+              313.05,
+              345.1
+            ],
+            "rotation": 0,
+            "text": "addEventListener",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.4564216778025243,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "32676e6c-2cfd-4a4f-2a90-06ac571c6251": {
+            "id": "32676e6c-2cfd-4a4f-2a90-06ac571c6251",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 3,
+            "point": [
+              212.88,
+              245.16
+            ],
+            "rotation": 0,
+            "text": "DOM level +2 events",
+            "style": {
+              "color": "green",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 2.2989241282602593,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "f4b9b619-df03-458e-08ef-caf1fc46eb58": {
+            "id": "f4b9b619-df03-458e-08ef-caf1fc46eb58",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 5,
+            "point": [
+              217.76,
+              513.71
+            ],
+            "rotation": 0,
+            "text": "https://developer.mozilla.org/en-US/docs/Web/Events",
+            "style": {
+              "color": "orange",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "c5b801f3-9bfe-4666-19ea-96136e8f8203": {
+            "id": "c5b801f3-9bfe-4666-19ea-96136e8f8203",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 3,
+            "point": [
+              296.83,
+              400.9
+            ],
+            "rotation": 0,
+            "text": "removeEventListener",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.4564216778025243,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          }
+        },
+        "bindings": {}
+      }
+    },
+    "pageStates": {
+      "page": {
+        "id": "page",
+        "selectedIds": [],
+        "camera": {
+          "point": [
+            0,
+            0
+          ],
+          "zoom": 1
+        }
+      }
+    },
+    "assets": {}
+  },
+  "assets": {}
+}

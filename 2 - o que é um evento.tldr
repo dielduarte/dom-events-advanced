@@ -1,0 +1,142 @@
+{
+  "document": {
+    "id": "doc",
+    "name": "New Document",
+    "version": 15.3,
+    "pages": {
+      "page": {
+        "id": "page",
+        "name": "Page 1",
+        "childIndex": 1,
+        "shapes": {
+          "11e699f0-fe7d-44e5-0917-75d56c7bc14a": {
+            "id": "11e699f0-fe7d-44e5-0917-75d56c7bc14a",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 2,
+            "point": [
+              293.9,
+              25.88
+            ],
+            "rotation": 0,
+            "text": "O Que é um evento?",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 2.9113157894736843,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "0a3f3b6b-52bb-4c59-094a-a18502f69543": {
+            "id": "0a3f3b6b-52bb-4c59-094a-a18502f69543",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 3,
+            "point": [
+              213.92,
+              127.6
+            ],
+            "rotation": 0,
+            "text": "Um evento é um sinal de que algo vai acontecer, aconteceu ou está acontecendo. ",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "ca2c0a20-9fb4-41b0-392c-4c2cd530fe8c": {
+            "id": "ca2c0a20-9fb4-41b0-392c-4c2cd530fe8c",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 4,
+            "point": [
+              218.93318782479582,
+              204.93
+            ],
+            "rotation": 0,
+            "text": "- Eventos do usuario",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.4564216778025243,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "69b7bc83-561e-4be7-14be-9f12545fb724": {
+            "id": "69b7bc83-561e-4be7-14be-9f12545fb724",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 5,
+            "point": [
+              217.87,
+              278.2753956941351
+            ],
+            "rotation": 0,
+            "text": "- Eventos do sistema",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.4564216778025243,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "ca2267e8-81d1-4e78-24c5-6d75a0c5f90d": {
+            "id": "ca2267e8-81d1-4e78-24c5-6d75a0c5f90d",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 6,
+            "point": [
+              218.7292887899035,
+              345.76597624350404
+            ],
+            "rotation": 0,
+            "text": "- Eventos sintéticos e customizados",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.4564216778025243,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          }
+        },
+        "bindings": {}
+      }
+    },
+    "pageStates": {
+      "page": {
+        "id": "page",
+        "selectedIds": [],
+        "camera": {
+          "point": [
+            0,
+            0
+          ],
+          "zoom": 1
+        }
+      }
+    },
+    "assets": {}
+  },
+  "assets": {}
+}

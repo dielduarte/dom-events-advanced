@@ -1,0 +1,76 @@
+{
+  "document": {
+    "id": "doc",
+    "name": "New Document",
+    "version": 15.3,
+    "pages": {
+      "page": {
+        "id": "page",
+        "name": "Page 1",
+        "childIndex": 1,
+        "shapes": {
+          "1b3bd7b7-6826-4f66-2364-df5608da55fd": {
+            "id": "1b3bd7b7-6826-4f66-2364-df5608da55fd",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 1,
+            "point": [
+              241.64,
+              238.95
+            ],
+            "rotation": 0,
+            "text": "Eventos sintéticos",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 3.2097368421052623,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "d5df4ef8-9221-4e8c-3b90-717d3930fa97": {
+            "id": "d5df4ef8-9221-4e8c-3b90-717d3930fa97",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 2,
+            "point": [
+              379.48,
+              334.78
+            ],
+            "rotation": 0,
+            "text": "Forma de criar eventos \nprogramáticamente",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.3122526720124377,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          }
+        },
+        "bindings": {}
+      }
+    },
+    "pageStates": {
+      "page": {
+        "id": "page",
+        "selectedIds": [],
+        "camera": {
+          "point": [
+            0,
+            0
+          ],
+          "zoom": 1
+        }
+      }
+    },
+    "assets": {}
+  },
+  "assets": {}
+}

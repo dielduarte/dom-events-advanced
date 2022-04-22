@@ -1,0 +1,79 @@
+{
+  "document": {
+    "id": "doc",
+    "name": "New Document",
+    "version": 15.3,
+    "pages": {
+      "page": {
+        "id": "page",
+        "name": "Page 1",
+        "childIndex": 1,
+        "shapes": {
+          "4504282e-1c77-43e6-3ec9-048ddfa2de24": {
+            "id": "4504282e-1c77-43e6-3ec9-048ddfa2de24",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 1,
+            "point": [
+              320.53,
+              243.16
+            ],
+            "rotation": 0,
+            "text": "Custom Events",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 3.2097368421052623,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "e0220f72-b20f-4aaf-3976-69dd040c9baf": {
+            "id": "e0220f72-b20f-4aaf-3976-69dd040c9baf",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 2,
+            "point": [
+              414.48,
+              341.33
+            ],
+            "rotation": 0,
+            "text": "new CustomEvent()",
+            "style": {
+              "color": "blue",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.3122526720124377,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          }
+        },
+        "bindings": {}
+      }
+    },
+    "pageStates": {
+      "page": {
+        "id": "page",
+        "selectedIds": [
+          "4504282e-1c77-43e6-3ec9-048ddfa2de24",
+          "e0220f72-b20f-4aaf-3976-69dd040c9baf"
+        ],
+        "camera": {
+          "point": [
+            0,
+            0
+          ],
+          "zoom": 1
+        }
+      }
+    },
+    "assets": {}
+  },
+  "assets": {}
+}

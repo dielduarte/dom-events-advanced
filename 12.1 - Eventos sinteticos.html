@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    div {
+      padding: 30px;
+      background: blue;
+      width: min-content;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="div">
+    <button class="button">
+      clique aqui!
+    </button>
+  </div>
+
+  <script>
+    const button = document.querySelector('.button')
+    const div = document.querySelector('.div')
+
+    // Como criar um evento programáticamente
+    // const event = new Event('nome do evento')
+
+    // Utilizando diferentes constructors
+    // const event = new MouseEvent('click')
+
+    // event options
+    // const event = new Event('nome do evento', {
+    //   bubbles: false,
+    //   cancelable: false,
+    //   composed: false
+    // })
+
+    // -----------------------------------------
+
+    // Como enviar um evento
+
+    // button.addEventListener('custom_event', (event) => {
+    //   console.log('evento disparado', event.type)
+    // })
+
+    // const event = new Event('custom_event')
+
+    // button.dispatchEvent(event);
+
+    // criando um evento com bubbling side effect
+
+    // window.addEventListener('custom_event', (event) => {
+    //   console.log('evento disparado', event.type)
+    // })
+
+    // const event = new Event('custom_event', { bubbles: true })
+
+    // button.dispatchEvent(event);
+
+    // -----------------------------------------
+    // Diferenciando eventos sintéticos de não sintéticos com isTrusted
+
+    // window.addEventListener('click', (event) => {
+    //   console.log('event.isTrusted ', event.isTrusted)
+    // })
+
+    // const event = new MouseEvent('click', { bubbles: true })
+
+    // button.dispatchEvent(event);
+  </script>
+</body>
+
+</html>

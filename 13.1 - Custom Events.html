@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    div {
+      padding: 30px;
+      background: blue;
+      width: min-content;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="div">
+    <button class="button">
+      clique aqui!
+    </button>
+  </div>
+
+  <script>
+    const button = document.querySelector('.button')
+    const div = document.querySelector('.div')
+
+    // use de event detail
+    button.addEventListener('custom_event', (event) => {
+      console.log(event.detail)
+    })
+
+    const event = new CustomEvent('custom_event', {
+      detail: {
+        name: 'Diel',
+        age: 10
+      }
+    })
+
+    button.dispatchEvent(event)
+  </script>
+</body>
+
+</html>

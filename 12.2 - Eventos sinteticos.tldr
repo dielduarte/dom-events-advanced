@@ -1,0 +1,98 @@
+{
+  "document": {
+    "id": "doc",
+    "name": "New Document",
+    "version": 15.3,
+    "pages": {
+      "page": {
+        "id": "page",
+        "name": "Page 1",
+        "childIndex": 1,
+        "shapes": {
+          "3a7fd551-1d80-4847-1779-7586a1ba2201": {
+            "id": "3a7fd551-1d80-4847-1779-7586a1ba2201",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 1,
+            "point": [
+              130.16,
+              247.73
+            ],
+            "rotation": 0,
+            "text": "- Eventos sintéticos não enviam informações customizadas",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.4564216778025243,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "8e2e9805-b102-4d75-1ce6-9d9a12a3e4f3": {
+            "id": "8e2e9805-b102-4d75-1ce6-9d9a12a3e4f3",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 3,
+            "point": [
+              282.25,
+              53.44
+            ],
+            "rotation": 0,
+            "text": "Important! ",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 3.5489335288937505,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "b25db36e-3965-4d8b-16b3-38459640c8d9": {
+            "id": "b25db36e-3965-4d8b-16b3-38459640c8d9",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 6,
+            "point": [
+              704.62,
+              75.81
+            ],
+            "rotation": 0,
+            "text": "🔑",
+            "style": {
+              "color": "orange",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 2.4367486305535127,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          }
+        },
+        "bindings": {}
+      }
+    },
+    "pageStates": {
+      "page": {
+        "id": "page",
+        "selectedIds": [],
+        "camera": {
+          "point": [
+            0,
+            0
+          ],
+          "zoom": 1
+        }
+      }
+    },
+    "assets": {}
+  },
+  "assets": {}
+}
