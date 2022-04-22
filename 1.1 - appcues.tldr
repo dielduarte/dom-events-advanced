@@ -9,46 +9,68 @@
         "name": "Page 1",
         "childIndex": 1,
         "shapes": {
-          "05dc0842-549b-4141-1a3e-597b98c3874d": {
-            "id": "05dc0842-549b-4141-1a3e-597b98c3874d",
+          "7a56e6a8-8b0b-4677-3c55-6f0ba22da65b": {
+            "id": "7a56e6a8-8b0b-4677-3c55-6f0ba22da65b",
             "type": "text",
             "name": "Text",
             "parentId": "page",
-            "childIndex": 2,
+            "childIndex": 1,
             "point": [
-              172.84,
-              60.94
+              288.49,
+              97.37
             ],
             "rotation": 0,
-            "text": "Dom Events - Avançado",
+            "text": "Appcues ",
             "style": {
               "color": "black",
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 3.9634210526315803,
+              "scale": 5.423389430543574,
               "font": "script",
               "textAlign": "middle"
             }
           },
-          "400122aa-aad4-48b9-1324-d3130b3ecbf5": {
-            "id": "400122aa-aad4-48b9-1324-d3130b3ecbf5",
+          "c4cd0a6e-24c2-43ca-0989-f78818820fc4": {
+            "id": "c4cd0a6e-24c2-43ca-0989-f78818820fc4",
             "type": "text",
             "name": "Text",
             "parentId": "page",
-            "childIndex": 3,
+            "childIndex": 2,
             "point": [
-              418.09,
-              211.84
+              376.77,
+              294.85
             ],
             "rotation": 0,
-            "text": "@diel_duarte",
+            "text": "https://appcues.com/company",
             "style": {
-              "color": "indigo",
+              "color": "blue",
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 2.4571395862104315,
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "187af09f-ec58-46e2-3417-933c7389fce2": {
+            "id": "187af09f-ec58-46e2-3417-933c7389fce2",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 4,
+            "point": [
+              727.57,
+              155.05
+            ],
+            "rotation": 0,
+            "text": "💙",
+            "style": {
+              "color": "orange",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 2.8663074792243735,
               "font": "script",
               "textAlign": "middle"
             }
@@ -63,8 +85,8 @@
         "selectedIds": [],
         "camera": {
           "point": [
-            0.5,
-            12.5
+            0,
+            0
           ],
           "zoom": 1
         }

@@ -9,46 +9,46 @@
         "name": "Page 1",
         "childIndex": 1,
         "shapes": {
-          "05dc0842-549b-4141-1a3e-597b98c3874d": {
-            "id": "05dc0842-549b-4141-1a3e-597b98c3874d",
+          "06726437-4ace-4fbf-0587-2e056e4bca0e": {
+            "id": "06726437-4ace-4fbf-0587-2e056e4bca0e",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 1,
+            "point": [
+              113.23,
+              204.18
+            ],
+            "rotation": 0,
+            "text": "1minuteebooks.dev ",
+            "style": {
+              "color": "blue",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 4.362428157856098,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "f4da88ad-07b4-4085-1ecd-b77be65d549d": {
+            "id": "f4da88ad-07b4-4085-1ecd-b77be65d549d",
             "type": "text",
             "name": "Text",
             "parentId": "page",
             "childIndex": 2,
             "point": [
-              172.84,
-              60.94
+              270.99,
+              355.91
             ],
             "rotation": 0,
-            "text": "Dom Events - Avançado",
+            "text": "meetupfrontendbh",
             "style": {
-              "color": "black",
+              "color": "orange",
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 3.9634210526315803,
-              "font": "script",
-              "textAlign": "middle"
-            }
-          },
-          "400122aa-aad4-48b9-1324-d3130b3ecbf5": {
-            "id": "400122aa-aad4-48b9-1324-d3130b3ecbf5",
-            "type": "text",
-            "name": "Text",
-            "parentId": "page",
-            "childIndex": 3,
-            "point": [
-              418.09,
-              211.84
-            ],
-            "rotation": 0,
-            "text": "@diel_duarte",
-            "style": {
-              "color": "indigo",
-              "size": "small",
-              "isFilled": false,
-              "dash": "draw",
-              "scale": 2.4571395862104315,
+              "scale": 2.481842105263158,
               "font": "script",
               "textAlign": "middle"
             }
@@ -63,8 +63,8 @@
         "selectedIds": [],
         "camera": {
           "point": [
-            0.5,
-            12.5
+            0,
+            0
           ],
           "zoom": 1
         }
