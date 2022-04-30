@@ -30,7 +30,7 @@
     const div = document.querySelector('.div')
 
     // Como criar um evento programáticamente
-    // const event = new Event('nome do evento')
+    // const event = new Event('click')
 
     // Utilizando diferentes constructors
     // const event = new MouseEvent('click')
@@ -58,7 +58,7 @@
 
     // window.addEventListener('custom_event', (event) => {
     //   console.log('evento disparado', event.type)
-    // })
+    // });
 
     // const event = new Event('custom_event', { bubbles: true })
 
@@ -67,13 +67,13 @@
     // -----------------------------------------
     // Diferenciando eventos sintéticos de não sintéticos com isTrusted
 
-    // window.addEventListener('click', (event) => {
-    //   console.log('event.isTrusted ', event.isTrusted)
-    // })
+    window.addEventListener('click', (event) => {
+      console.log('event.isTrusted ', event.isTrusted)
+    })
 
-    // const event = new MouseEvent('click', { bubbles: true })
+    const event = new MouseEvent('click', { bubbles: true })
 
-    // button.dispatchEvent(event);
+    button.dispatchEvent(event);
   </script>
 </body>
 

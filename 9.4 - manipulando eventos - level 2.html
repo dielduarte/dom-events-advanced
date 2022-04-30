@@ -16,16 +16,55 @@
   </div>
 
   <script>
-    // @TODO list
     // - adicionar e remover eventos
-    //   - compartilhar referencias
+    //   - referencias
     //   - adicionar multiplos eventos
-    // - configuracoes de um evento (adicionar e remover)
-    //  - capture
+    // - algumas configs de um evento (adicionar e remover)
     //  - once
     //  - passive
 
     const button = document.querySelector('.button')
+
+    // ADICIONAR EVENTOS
+
+    // exemplo 1
+
+    // button.addEventListener('click', () => {
+    //   console.log('evento de click aconteceu')
+    // })
+
+    // exemplo 2 - eventos multiplos
+
+    // button.addEventListener('click', () => {
+    //   console.log('1')
+    // })
+
+    // button.addEventListener('click', () => {
+    //   console.log('2')
+    // })
+
+    // REMOVER EVENTOS
+
+    // exemplo 1
+
+    // button.removeEventListener('click', () => {
+    //   console.log('evento de click aconteceu')
+    // })
+
+    // compartilhar mesma instancia do callback e config para remover
+
+
+    // CONFIGS AO CRIAR UM LISTENER
+
+    // once
+    // button.addEventListener('click', () => {
+    //   console.log('hey')
+    // }, { once: true })
+
+    // passive
+    // button.addEventListener('click', () => {
+    //   console.log('hey')
+    // }, { passive: true })
 
   </script>
 </body>

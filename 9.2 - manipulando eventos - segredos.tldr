@@ -38,8 +38,8 @@
             "parentId": "page",
             "childIndex": 2,
             "point": [
-              119.4,
-              549.05
+              104.69,
+              620.07
             ],
             "rotation": 0,
             "text": "- Eventos level 0 não funciona com mais de um listener para o \nmesmo tipo de evento",
@@ -104,8 +104,8 @@
             "parentId": "page",
             "childIndex": 2,
             "point": [
-              179.79,
-              430.44
+              166.19,
+              468.72
             ],
             "rotation": 0,
             "text": "- Nem todos os tipos de eventos existentes podem \nser utilizados como atributo ou propriedade",

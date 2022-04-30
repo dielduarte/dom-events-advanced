@@ -10,7 +10,7 @@
 
 <body>
   <div>
-    <button class="button" onclick="alert('hello world!')">
+    <button class="button">
       clique aqui!
     </button>
   </div>
@@ -22,7 +22,9 @@
     // button.onclick = () => eval("alert('hello world!')")
 
     // object property
-    // button.onclick = () => alert('hello world!')
+    button.onclick = () => alert('hello world!')
+
+    // como saber qual é o nome da propriedade
 
     // remover eventos
 
@@ -31,6 +33,13 @@
 
     //HTML attributes
     // button.removeAttribute('onclick');
+
+    button.setAttribute(
+      'onClick',
+      "alert('from attribute')"
+    )
+
+
   </script>
 </body>
 
