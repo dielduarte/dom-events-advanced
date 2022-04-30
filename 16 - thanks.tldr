@@ -1,0 +1,98 @@
+{
+  "document": {
+    "id": "doc",
+    "name": "New Document",
+    "version": 15.3,
+    "pages": {
+      "page": {
+        "id": "page",
+        "name": "Page 1",
+        "childIndex": 1,
+        "shapes": {
+          "1d4b0301-b0f3-4bb1-36ac-f90fdafb078f": {
+            "id": "1d4b0301-b0f3-4bb1-36ac-f90fdafb078f",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 2,
+            "point": [
+              3.01,
+              -202.71
+            ],
+            "rotation": 0,
+            "text": "Obrigado!",
+            "style": {
+              "color": "yellow",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 7.529033242637327,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "ace39fc6-9ad2-4cab-15f8-b423794f7096": {
+            "id": "ace39fc6-9ad2-4cab-15f8-b423794f7096",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 3,
+            "point": [
+              198.82,
+              51.01
+            ],
+            "rotation": 0,
+            "text": "@diel_duarte",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.9803784277148597,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "234b7512-7c07-49a4-190d-409fb7d11ef9": {
+            "id": "234b7512-7c07-49a4-190d-409fb7d11ef9",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 4,
+            "point": [
+              -66.47,
+              260.52
+            ],
+            "rotation": 0,
+            "text": "https://github.com/dielduarte/dom-events-advanced",
+            "style": {
+              "color": "blue",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.7687461757484144,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          }
+        },
+        "bindings": {}
+      }
+    },
+    "pageStates": {
+      "page": {
+        "id": "page",
+        "selectedIds": [],
+        "camera": {
+          "point": [
+            0,
+            0
+          ],
+          "zoom": 1
+        }
+      }
+    },
+    "assets": {}
+  },
+  "assets": {}
+}
