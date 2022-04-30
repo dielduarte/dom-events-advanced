@@ -16,11 +16,11 @@
             "parentId": "page",
             "childIndex": 2,
             "point": [
-              187.36,
+              174.86,
               226.71
             ],
             "rotation": 0,
-            "text": "Entendendo o ciclo de vida de \num evento na web",
+            "text": "Entendendo event propagation",
             "style": {
               "color": "black",
               "size": "small",
