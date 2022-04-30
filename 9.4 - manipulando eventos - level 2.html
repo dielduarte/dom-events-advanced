@@ -57,9 +57,7 @@
 
     // exemplo 1
 
-    // button.removeEventListener('click', () => {
-    //   console.log('evento de click aconteceu')
-    // })
+    // button.removeEventListener('click', onClick)
 
     // compartilhar mesma instancia do callback e config para remover
 
@@ -72,9 +70,10 @@
     // }, { once: true })
 
     // passive
-    // button.addEventListener('click', () => {
+    // button.addEventListener('click', (event) => {
+    //   event.preventDefault();
     //   console.log('hey')
-    // }, { passive: true })
+    // }, { passive: false })
 
   </script>
 </body>

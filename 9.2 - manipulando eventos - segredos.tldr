@@ -126,8 +126,8 @@
             "parentId": "page",
             "childIndex": 2,
             "point": [
-              99.05,
-              348.34
+              118.48,
+              371.15
             ],
             "rotation": 0,
             "text": "- Não conseguimos alterar a configuração padrão de um evento",
@@ -136,7 +136,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1.4564216778025243,
+              "scale": 1.3894108738055202,
               "font": "script",
               "textAlign": "middle"
             }

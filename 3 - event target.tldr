@@ -137,7 +137,7 @@
             ],
             "rotation": 0,
             "style": {
-              "color": "green",
+              "color": "violet",
               "size": "small",
               "isFilled": false,
               "dash": "draw",
@@ -195,7 +195,7 @@
               "end": "arrow"
             },
             "style": {
-              "color": "green",
+              "color": "violet",
               "size": "small",
               "isFilled": false,
               "dash": "draw",
@@ -380,6 +380,92 @@
               0.5,
               0.5
             ]
+          },
+          "bff9def0-000a-4df4-0767-71cad98d1d94": {
+            "id": "bff9def0-000a-4df4-0767-71cad98d1d94",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "page",
+            "childIndex": 4,
+            "point": [
+              596.95,
+              432.34
+            ],
+            "radius": [
+              110.45024558150851,
+              105.50898020066745
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "blue",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "... e muito mais",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "a1367518-7e03-4e7f-2d41-d0d286c694ee": {
+            "id": "a1367518-7e03-4e7f-2d41-d0d286c694ee",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 10,
+            "point": [
+              712.67,
+              209.76
+            ],
+            "rotation": 0,
+            "bend": 0.000039985984579543164,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  222.7
+                ],
+                "canBind": true,
+                "bindingId": "4fcb0195-207b-470d-0162-2e343322256b"
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  2.29,
+                  0
+                ],
+                "canBind": true,
+                "bindingId": "498b5cb4-bbc0-45f4-2712-7f79542d60a3"
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  1.15,
+                  111.35
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "blue",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
           }
         },
         "bindings": {
@@ -478,6 +564,30 @@
               0.49
             ],
             "distance": 16
+          },
+          "498b5cb4-bbc0-45f4-2712-7f79542d60a3": {
+            "id": "498b5cb4-bbc0-45f4-2712-7f79542d60a3",
+            "type": "arrow",
+            "fromId": "a1367518-7e03-4e7f-2d41-d0d286c694ee",
+            "toId": "72f0be23-861d-448b-08b3-45910b8c63ac",
+            "handleId": "end",
+            "point": [
+              0.67,
+              0.49
+            ],
+            "distance": 16
+          },
+          "4fcb0195-207b-470d-0162-2e343322256b": {
+            "id": "4fcb0195-207b-470d-0162-2e343322256b",
+            "type": "arrow",
+            "fromId": "a1367518-7e03-4e7f-2d41-d0d286c694ee",
+            "toId": "bff9def0-000a-4df4-0767-71cad98d1d94",
+            "handleId": "start",
+            "point": [
+              0.52,
+              0.15
+            ],
+            "distance": 8
           }
         }
       }

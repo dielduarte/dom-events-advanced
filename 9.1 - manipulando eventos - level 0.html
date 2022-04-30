@@ -20,7 +20,7 @@
 
 <body>
   <div>
-    <button class="button">
+    <button class="button" onclick="alert('attribute')">
       clique aqui!
     </button>
   </div>
@@ -29,10 +29,11 @@
     const button = document.querySelector('.button')
 
     // HTML attributes but in JS
-    // button.onclick = () => eval("alert('hello world!')")
+    // button.onclick = () => eval("alert('eval')")
 
     // object property
-    button.onclick = () => alert('hello world!')
+    // button.onclick = () => alert('property')
+
 
     // como saber qual é o nome da propriedade
 
@@ -44,12 +45,10 @@
     //HTML attributes
     // button.removeAttribute('onclick');
 
-    button.setAttribute(
-      'onClick',
-      "alert('from attribute')"
-    )
-
-
+    // button.setAttribute(
+    //   'onclick',
+    //   "alert('attribute')"
+    // )
   </script>
 </body>
 

@@ -27,7 +27,7 @@
     const button = document.querySelector('.button')
 
     button.addEventListener('click', (event) => {
-      event.stopPropagation();
+      event.stopImmediatePropagation();
       console.log('primeiro evento');
     })
 
